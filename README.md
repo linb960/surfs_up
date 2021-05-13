@@ -36,6 +36,8 @@ df.describe()
 
 ## Results
 The results for the June temperatures are: <br>
+  <img src="images/June.png" width="1000" height="250">
 
 The results for the December temperatures are: <br>
+  <img src="images/Dec.png" width="1000" height="250">
 
