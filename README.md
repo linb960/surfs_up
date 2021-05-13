@@ -18,9 +18,8 @@ df.set_index(df['date'], inplace=True)
 df = df.sort_index()
 df.describe()
 ```
-<br>
+
 We can then refactor the code above and change this as follows for December (12):
-<br>
 ```
 # Convert the June temperatures to a list.
 dec_temps = []
@@ -32,12 +31,11 @@ df.set_index(df['date'], inplace=True)
 df = df.sort_index()
 df.describe()
 ```
-<br>
 
 ## Results
 The results for the June temperatures are: <br>
-  <img src="images/June.png" width="1000" height="250">
+  <img src="images/June.png" width="679" height="264">
 
 The results for the December temperatures are: <br>
-  <img src="images/Dec.png" width="1000" height="250">
+  <img src="images/Dec.png" width="766" height="260">
 
