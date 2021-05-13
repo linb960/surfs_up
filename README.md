@@ -39,3 +39,15 @@ The results for the June temperatures are: <br>
 The results for the December temperatures are: <br>
   <img src="images/Dec.png" width="766" height="260">
 
+The three key differences between the temperatures in June and Dec are:
+* June's min is 64 and Dec's min is 56 so there is 9 degree difference between the minimum tempertures. 
+* June's max is 85 and Dec's max is 83 so these are very close, although we can see that Dec's 83 is much greater then 75% and less likely to occur.
+* The average temps are 71 and 75 degrees.  Only 4 degrees different from summer to winter.  Very moderate weather year round.
+
+## Additional Queries
+Because the weather is pretty much the same year round it would be helpful for the client to know what the precipitation is in the months of June and Dec. By refactoring the code above for June and looking at the Measurement.prcp data instead of the tobs we get the average rainfall for June here:
+
+Here's it the average rainfall for December:
+
+## Conclusion
+
