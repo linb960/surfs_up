@@ -19,6 +19,23 @@ df = df.sort_index()
 df.describe()
 ```
 <br>
+We can then refactor the code above and change this as follows for December (12):
+<br>
+```
+# Convert the June temperatures to a list.
+dec_temps = []
+dec_temps = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date)==12).all()
 
+# Create a DataFrame from the list of temperatures for the month of June. 
+df = pd.DataFrame(dec_temps, columns=['date','temperture'])
+df.set_index(df['date'], inplace=True)
+df = df.sort_index()
+df.describe()
+```
+<br>
 
+## Results
+The results for the June temperatures are: <br>
+
+The results for the December temperatures are: <br>
 
