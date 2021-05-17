@@ -21,7 +21,7 @@ df.describe()
 
 We can then refactor the code above and change this as follows for December (12):
 ```
-# Convert the June temperatures to a list.
+# Convert the Dec temperatures to a list.
 dec_temps = []
 dec_temps = session.query(Measurement.date, Measurement.tobs).filter(extract('month', Measurement.date)==12).all()
 
